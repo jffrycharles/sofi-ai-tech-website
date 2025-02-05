@@ -926,7 +926,7 @@ img{
 }
 
 .sec-title.light .sec-title_title{
-    color: var(--white-color);
+    color: rgb(0 0 0);
 }
 
 .sec-title.light .sec-title_heading span::before{
@@ -941,7 +941,7 @@ img{
 }
 
 .sec-title.light .sec-title_heading{
-	color:var(--white-color);
+	color: rgb(0 0 0);
 }
 
 .sec-title.centered{
