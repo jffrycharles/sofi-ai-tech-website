@@ -887,7 +887,7 @@
 }
 
 .answer-one .sec-title_title {
-    color: #D093E8;
+    color: #00C6A5;
 }
 
 .answer-one_title-column{
@@ -1202,7 +1202,7 @@
 }
 
 .testimonial-one .sec-title_title {
-    color: #D093E8;
+    color: #00C6A5;
 }
 
 .testimonial-one .auto-container{
@@ -1336,7 +1336,7 @@
 }
 
 .steps-one .sec-title_title {
-    color: #D093E8;
+    color: #00C6A5;
 }
 
 .steps-one_bg{
@@ -1417,8 +1417,7 @@
 	position: relative;
 	padding: 30px 25px;
 	border-radius: 8px;
-	background: rgba(var(--main-color-rgb), 1);
-    background: linear-gradient(to bottom, rgba(var(--main-color-rgb), 1) 0%, var(--color-two) 100%);
+	background: linear-gradient(to bottom, #009688 0%, var(--color-two) 100%);
 }
 
 .step-block_one-steps{
@@ -1479,7 +1478,7 @@
 }
 
 .price-one .sec-title_title {
-    color: #D093E8;
+    color: #00C6A5;
 }
 
 .price-one_bg{
@@ -1871,7 +1870,7 @@
 }
 
 .faq-one .sec-title_title{
-	color: #D093E8;
+	color: #00C6A5;
 }
 
 .faq-one .sec-title_text{
@@ -5509,7 +5508,7 @@
 }
 
 .clients-two .sec-title_title{
-	color: var(--color-five);
+	color: #00C6A5;
 }
 
 .clients-two .client-image{
