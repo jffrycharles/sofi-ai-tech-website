@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sofitech AI Webchat Page</title>
+</head>
+<body>
+  <h1>Welcome to the Chat Page</h1>
+  <p>This page contains the Sofitech AI Webchat integration.</p>
+
+ <!-- AI Bot Icon -->
+<div class="ai-bot" id="chatBotIcon">
+  <img src="assets/images/icons/sofi-tech-logo 1.png" alt="sofilogo" />
+</div>
+
+<!-- Chat Widget Script -->
+<script src="https://app.sofitech.ai/webchat/plugin.js?v=6"></script>
+<script>
+  ktt10.setup({
+    id: "MDeRvVkTpHwvnz",
+    accountId: "1711681",
+    color: "#36D6B5"
+  });
+
+  // Toggle Chat Visibility
+  document.getElementById("chatBotIcon").addEventListener("click", function () {
+    let chatWidget = document.querySelector(".ktt10-widget");
+    if (chatWidget) {
+      chatWidget.style.display = (chatWidget.style.display === "none" || chatWidget.style.display === "") ? "block" : "none";
+    }
+  });
+</script>
+
+</body>
+</html>
